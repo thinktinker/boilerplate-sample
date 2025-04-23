@@ -1,0 +1,19 @@
+/* custom styles (outside of boostrap) here */
+/* universal settings */
+*,*::before,*::after{
+    margin:0;
+    padding:0;
+    /* outline: 1px dashed #ffffff20; */  /* temporary outline */
+}  
+
+/* override bootstrap's class .btn-primary for use across the site */
+.btn-primary{
+    background-color: blueviolet !important;
+    border: none;
+}
+
+/* override bootstrap's class .btn-secondary for use across the site */
+.btn-secondary{
+    background-color: rgb(69, 10, 125) !important;
+    border: none;
+}
